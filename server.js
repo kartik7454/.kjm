@@ -14,7 +14,7 @@ app.use((req,res,next)=>{
     next()
 })
 //routes
-app.use('/',eventRoutes)
+app.use('https://jngfh.onrender.com/',eventRoutes)
 
 
 //connect to db
