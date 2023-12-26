@@ -3,10 +3,10 @@ const cors = require ('cors')
 require('dotenv').config()
 const mongoose = require('mongoose')
 const eventRoutes = require('./routes/eventRoutes')
-
+const app = express()
 app.use(cors())
 //express app
-const app = express()
+
 
 // middelware
 
